@@ -1,0 +1,24 @@
+spring:
+    artemis:
+        broker-url: tcp://localhost:61616
+        mode: native
+        user: test
+        password: test
+jws-rpc:
+    #  name: j-ws-rpc-sample
+    simulate: false
+    package-name: uz.devops
+    ws-server:
+        active: true
+        end-point: /ws
+        application-prefix: /app
+        broker-prefix: /topic
+    gateway: gateway
+    microservice: microservice
+    reactive: false
+
+logging:
+    level:
+        root: info
+        uz.devops: debug
+        uz.devcraft: debug

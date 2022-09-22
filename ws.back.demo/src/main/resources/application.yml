@@ -1,0 +1,24 @@
+server:
+    port: 8081
+spring:
+    redis:
+        port: 6379
+        host: localhost
+    artemis:
+        password: test
+        user: test
+        mode: native
+
+jws-rpc:
+    #  name: j-ws-rpc-sample
+    simulate: false
+    packageName: uz.devcraft
+    gateway: gateway
+    microservice: microservice
+    reactive: false
+
+logging:
+    level:
+        root: info
+        uz.devops: debug
+        uz.devcraft: debug
