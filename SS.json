@@ -1,0 +1,28 @@
+{
+  "merchantId": "20208000605209993001",
+  "docType": "INN",
+  "inn": "307288284",
+  "commissionId": 7802,
+  "commissionCbId": null,
+  "director": {
+    "phone": "998977172245",
+    "passportSeries": "AB",
+    "passportNumber": "4199013",
+    "birthDate": "2000-06-02T19:00:00.000Z"
+  },
+  "accountant": {
+    "phone": null,
+    "passportNumber": null,
+    "birthDate": null
+  },
+  "contactDirector": true,
+  "contactAccountant": false,
+  "terminals": [],
+  "posTerminal": 0,
+  "eposTerminal": 1,
+  "type": "ORGANIZATION",
+  "openBankAccount": false,
+  "bankAccountType": null,
+  "requiredBankTerminals": false,
+  "reestablished": false
+}

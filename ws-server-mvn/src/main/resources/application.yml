@@ -1,6 +1,6 @@
 spring:
     artemis:
-        broker-url: tcp://localhost:61616
+        broker-url: tcp://artemis:61616
         mode: native
         user: test
         password: test
@@ -15,10 +15,12 @@ jws-rpc:
         broker-prefix: /topic
     gateway: gateway
     microservice: microservice
-    reactive: false
+    reactive: true
 
 logging:
     level:
         root: info
         uz.devops: debug
         uz.devcraft: debug
+server:
+    port: 7070
